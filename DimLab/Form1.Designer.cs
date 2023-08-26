@@ -121,7 +121,7 @@ namespace DimLab
             this.groupBox_services.Controls.Add(this.smart_map);
             this.groupBox_services.Controls.Add(this.bio);
             this.groupBox_services.Controls.Add(this.wmi);
-            this.groupBox_services.Location = new System.Drawing.Point(420, 18);
+            this.groupBox_services.Location = new System.Drawing.Point(390, 18);
             this.groupBox_services.Name = "groupBox_services";
             this.groupBox_services.Size = new System.Drawing.Size(258, 163);
             this.groupBox_services.TabIndex = 6;
@@ -195,9 +195,9 @@ namespace DimLab
             this.groupBox1.Controls.Add(this.cleanmgr);
             this.groupBox1.Controls.Add(this.sxs_second);
             this.groupBox1.Controls.Add(this.sxs_first);
-            this.groupBox1.Location = new System.Drawing.Point(420, 187);
+            this.groupBox1.Location = new System.Drawing.Point(390, 187);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(253, 102);
+            this.groupBox1.Size = new System.Drawing.Size(250, 100);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Выбор очистки";
@@ -249,7 +249,7 @@ namespace DimLab
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(684, 311);
+            this.ClientSize = new System.Drawing.Size(684, 361);
             this.Controls.Add(this.regedit);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox_services);
