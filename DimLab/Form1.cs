@@ -18,6 +18,7 @@ namespace DimLab
         public Form1()
         {
             InitializeComponent();
+            info_disk();
         }
 
         private void info_disk()
